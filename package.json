@@ -4,7 +4,9 @@
   "description": "Node backend for the water my plants project",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env DB_ENV=development nodemon index.js"
+    "server": "cross-env DB_ENV=development nodemon index.js",
+    "test": "cross-env DB_ENV=development nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,22 @@
   "bugs": {
     "url": "https://github.com/waterMyPlant/back-end/issues"
   },
-  "homepage": "https://github.com/waterMyPlant/back-end#readme"
+  "homepage": "https://github.com/waterMyPlant/back-end#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jext": "^0.4.3",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
 }
