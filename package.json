@@ -1,0 +1,19 @@
+{
+  "name": "water-my-plants",
+  "version": "1.0.0",
+  "description": "Node backend for the water my plants project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env DB_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waterMyPlant/back-end.git"
+  },
+  "author": "Brianna Workman and Jasmine Khoury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waterMyPlant/back-end/issues"
+  },
+  "homepage": "https://github.com/waterMyPlant/back-end#readme"
+}
