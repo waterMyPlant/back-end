@@ -28,7 +28,7 @@ router.get('/:id', (req, res) => {
       }
     })
     .catch((err) => {
-      res.status(500).json({ message: 'Failed to get stories' });
+      res.status(500).json({ message: 'Failed to get plants' });
     });
 });
 

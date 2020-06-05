@@ -16,8 +16,8 @@ function findById(id) {
   return db('plants').where({ id }).first();
 }
 
-async function add(story) {
-  return db('plants').insert(story).returning('id');
+async function add(plant) {
+  return db('plants').insert(plant).returning('id');
 }
 
 async function update(changes, id) {
