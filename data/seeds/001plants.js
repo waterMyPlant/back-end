@@ -14,7 +14,7 @@ exports.seed = function(knex) {
 			{
 				id              : 1,
 				name            : 'Snake Plant Laurentii',
-				image_url       : '../images/snake-plant.png',
+				image_url       : '../images/snake-plant2.png',
 				water_frequency : 'Water every 2-3 weeks',
 				light           : 'Thrives in medium to bright indirect light, but can tolerate low indirect light.',
 				pet_friendly    : 'false',
@@ -145,8 +145,8 @@ exports.seed = function(knex) {
 			},
 			{
 				id              : 17,
-				name            : 'White Orchid/',
-				image_url       : '../images/white-orchid2.png',
+				name            : 'White Orchid',
+				image_url       : '../images/white-orchid.png',
 				water_frequency : 'Water about every week with 3-4 tablespoons of water',
 				light           : 'Thrives in bright indirect light, but can tolerate medium indirect light. Avoid direct sun.',
 				pet_friendly    : 'true',
